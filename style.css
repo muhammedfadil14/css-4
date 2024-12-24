@@ -1,0 +1,41 @@
+input[type="text"] {
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+ul>li {
+    color: mediumorchid;
+    font-family: Arial, sans-serif;
+    margin: 5px 0;
+}
+
+h2+h3 {
+    font-style: italic;
+    color: #555;
+}
+
+a:hover {
+    color: darkgreen;
+    font-size: 30px;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    background-color: steelblue;
+    color: white;
+    outline: none;
+}
+
+.decorated::before {
+    content: "Star ⭐ ";
+    color: gold;
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 400%;
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+}
